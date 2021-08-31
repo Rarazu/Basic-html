@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir HTML</title>
+    </head>
+    <body>
+        <form>
+            Nama :
+            <input type="text" />
+            <br />
+            Tanggal Lahir :
+            <input type="date" />
+            <br />
+            Berat Badan :
+            <input type="number"  min="20" max="150" />
+            <br />
+            Email :
+            <input type="email" />
+            <br />
+            Password :
+            <input type="password" /> 
+            <br />
+            Jenis Kelamin :
+            <input type="radio" name="gender" /> Pria
+            <input type="radio" name="gender" /> Wanita
+            <br />
+            Hobi :
+            <input type="checkbox" name="hobi" /> sport
+            <input type="checkbox" name="hobi" /> dance
+            <input type="checkbox" name="hobi" /> sing
+            <input type="checkbox" name="hobi" /> art 
+            <br />
+            Warna Favorit :
+            <input type="color" />
+            <br />
+            Upload Gambar :
+            <input type="file" />
+            <br />
+            Kepuasan Pelanggan :
+            <input type="range" min="10" max="100" />
+            <br />
+            Jurusan :
+            <select>
+                <option value="RPL">Rekayasa Perangkat Lunak</option>
+                <option value="TKJ">Teknik Komputer dan Jaringan</option>
+            </select>
+            <br />
+            <button type="submit">Submit</button>
+            <button type="reset">Reset Formulir</button>
+
+            <br />
+
+            <br />
+            <table>
+                <table border="1" width="70%">
+                <tr>
+                    <th>Barang</th>
+                    <th>Pack</th>
+                    <th>Harga</th>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="Bumi">Novel Bumi</option>
+                            <option value="Bulan">Novel Bulan</option>
+                            <option value="Matahari">Novel Matahari</option>
+                            <option value="Bintang">Novel Bintang</option>
+                            <option value="Komet">Novel Komet</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="Kertas">Pack Kertas</option>
+                            <option value="Plastik">Pack Plastik</option>
+                            <option value="Bubble">Pack Bubble Wrap</option>
+                            <option value="Kardus">Pack Kardus</option>
+                            <option value="Lengkap">Pack Lengkap Plastik Kardus Bubble Wrap</option>
+                        </select>
+                    </td>
+                    <td>
+                        Rp <input type="number" min="90000" max="120000" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="Evernight">Novel Evernight</option>
+                            <option value="Stargazer">Novel Stargazer</option>
+                            <option value="Hourglass">Novel Hourglass</option>
+                            <option value="Afterlife">Novel Afterlife</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="Kertas">Pack Kertas</option>
+                            <option value="Plastik">Pack Plastik</option>
+                            <option value="Bubble">Pack Bubble Wrap</option>
+                            <option value="Kardus">Pack Kardus</option>
+                            <option value="Lengkap">Pack Lengkap Plastik, Kardus, Bubble Wrap</option>
+                        </select>
+                    </td>
+                    <td>
+                        Rp <input type="number" min="90000" max="120000" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <button type="submit" style="width: 70%;">Submit</button>
+            <br>
+            <img src="pancasila/sila1.png" alt="Ini Ikon Sila Pertama">
+        </form>
+    </body>
+</html>
